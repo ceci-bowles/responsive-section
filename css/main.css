@@ -13,8 +13,69 @@ html {
   font-family: "Noto Sans", sans-serif;
   font-size: 100%;
   line-height: 1.3;
+  width: 100%;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  background-color: #e5c30a;
+  max-height: 30rem;
+}
+
+section .wrapper {
+  padding: 1.3rem;
+}
+
+.img-flex img {
+  width: 50%;
+  max-width: 45em;
+}
+
+.img-flex .section-letter {
+  float: left;
+  overflow: hidden;
+}
+
+.img-flex img .section-icon {
+  float: right;
+  overflow: hidden;
+}
+
+h2, p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .img-flex img {
+    padding: 0 1em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  section {
+    max-height: 10rem;
+  }
+
+  .img-flex {
+    width: 40%;
+  }
+
+  .section-body {
+    clear: both;
+    max-width: 50%
+  }
 }
