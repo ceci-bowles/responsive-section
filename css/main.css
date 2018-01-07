@@ -27,9 +27,9 @@ section {
   max-height: 30rem;
 }
 
-section .wrapper {
+.wrapper {
   margin: 0 auto;
-  max-width: 54em;
+  max-width: 45em;
   display: block;
 }
 
@@ -47,7 +47,11 @@ section .wrapper {
   padding: 1rem;
 }
 
-section h2, p {
+section h2 {
+  margin: 0;
+}
+
+section p {
   margin: 0;
 }
 
@@ -68,7 +72,7 @@ section h2, p {
   }
 
   .section-icon {
-    width:45%;
+    width: 45%;
   }
 
   .wrapper {
@@ -111,6 +115,7 @@ section h2, p {
 
   .section-letter {
     float: left;
+    overflow: hidden;
   }
 
   .section-icon {
